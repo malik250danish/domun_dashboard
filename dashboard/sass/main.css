@@ -1839,6 +1839,12 @@ tr {
   filter: drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.02));
 }
 
+.custCard2 {
+  border-radius: 15px;
+
+  filter: drop-shadow(0px 5px 5px rgba(0, 0, 0, 0.02));
+}
+
 .custCard img {
   width: 50px;
   border-radius: 15px;
@@ -1851,7 +1857,7 @@ tr {
 
 .fh3 {
   font-family: "Montserrat";
-  font-size: 30px;
+  font-size: 26px;
   font-weight: 500;
   line-height: 55px;
   font-style: normal;
