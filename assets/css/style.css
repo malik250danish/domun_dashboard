@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Rasa:ital,wght@0,300..700;1,300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Rasa:ital,wght@0,300..700;1,300..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+
+}
+
+.bg-main {
+
+    background: linear-gradient(135deg,
+            #22c783 0.00%,
+            #1aa98f 100.00%);
+}
+
+.formInp {
+    background: #fff;
+    border: 1px solid #ebebeb;
+    border-radius: 15px;
+    border-left: 0px transparent !important;
+
+}
+
+.formInp2 {
+    background: #fff;
+    border: 1px solid #ebebeb;
+    border-radius: 15px;
+    border-left: 0px transparent !important;
+    border-right: 0px transparent !important;
+
+}
+
+/* .eye {
+    position: absolute;
+    right: 30px;
+    top: 63%;
+    cursor: pointer;
+    color: #4484c1;
+} */
+
+
+.lockInp {
+    background-color: #b3cfe4 !important;
+}
+
+.signB {
+
+
+
+    background: linear-gradient(180deg,
+            #2a5e6b 0.00%,
+            #014351 100.00%);
+
+    width: fit-content;
+    /* padding-inline: 5rem; */
+    border-radius: 15px;
+    border: 0;
+    transition: 0.3s all;
+    width: 100%;
+    font-family: "Montserrat", sans-serif;
+    color: #fff;
+}
+
+.signB:hover {
+    background: linear-gradient(180deg,
+            #2a5e6b 0.00%,
+            #014351 100.00%);
+
+
+}
+
+
+.LogB {
+    background-color: transparent;
+
+    font-weight: 600;
+    padding-inline: 4.4rem;
+    font-family: "Poppins", sans-serif;
+    width: 100%;
+    border-radius: 20px;
+    transition: 0.3s all;
+    border: 2px solid transparent;
+}
+
+.LogB1 {
+    background-color: transparent;
+
+    font-weight: 600;
+    padding-inline: 4.4rem;
+    font-family: "Poppins", sans-serif;
+    width: 100%;
+    border-radius: 20px;
+    transition: 0.3s all;
+    border: 2px solid transparent;
+}
+
+.LogB1:hover {
+    background: #fff;
+
+    border: 2px solid #72A565;
+    transition: 0.3s all;
+}
+
+.LogB:hover {
+    background: #fff;
+
+    border: 2px solid #72A565;
+    transition: 0.3s all;
+}
+
+.forgText {
+    color: #fff;
+
+    font-size: 15px;
+    font-weight: 500;
+    text-decoration: none;
+    transition: 0.2s ease-in-out;
+    font-family: "Montserrat", sans-serif;
+}
+
+.forgText2 {
+    color: #7A7F7E;
+
+    font-size: 15px;
+    font-weight: 500;
+    text-decoration: none;
+    transition: 0.2s ease-in-out;
+    font-family: "Montserrat", sans-serif;
+}
+
+
+.forgText span {
+    color: #72A565;
+    font-size: 15px;
+    font-weight: 500;
+    text-decoration: none;
+    transition: 0.2s ease-in-out;
+    font-family: "Montserrat", sans-serif;
+}
+
+.forgText:hover {
+    color: #2d5d8a;
+    ;
+    text-decoration: underline;
+    transition: 0.2s ease-in-out;
+
+}
+
+.fs1 {
+    font-family: "Rasa", serif;
+    font-size: 80px;
+    font-weight: normal;
+    line-height: 28px;
+    font-style: normal;
+
+    color: #000;
+}
+
+.fs2 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 31px;
+    font-weight: 500;
+
+    font-style: normal;
+    text-align: center;
+    color: #fff;
+}
+
+
+.fs3 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+    line-height: 22px;
+    font-style: normal;
+    text-align: left;
+    color: #fff !important;
+}
+
+a {
+    text-decoration: none;
+}
+
+.fs5 {
+    color: #010D03;
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.fs5:hover {
+    color: #2d5d8a;
+    ;
+    text-decoration: underline;
+    transition: 0.2s ease-in-out;
+
+}
+
+.ipt {
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    background-color: #fff;
+
+
+
+}
+
+.ipt2 {
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    background-color: #fff;
+}
+
+.appleBtn {
+    background-color: #000 !important;
+    border-radius: 60px;
+
+}
+
+.gogBtn {
+    background-color: #F14436 !important;
+    border-radius: 60px;
+}

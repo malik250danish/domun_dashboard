@@ -1,0 +1,555 @@
+<!doctype html>
+<html lang="en" data-bs-theme="light">
+
+
+<!-- Mirrored from codervent.com/matoxi/demo/vertical-menu/index2.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 09 Jan 2024 16:36:45 GMT -->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Domun</title>
+  <!--favicon-->
+
+
+  <!--plugins-->
+  <link href="assets/plugins/perfect-scrollbar/css/perfect-scrollbar.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="assets/plugins/metismenu/metisMenu.min.css">
+  <link rel="stylesheet" type="text/css" href="assets/plugins/metismenu/mm-vertical.css">
+  <link rel="stylesheet" type="text/css" href="assets/plugins/simplebar/css/simplebar.css">
+  <!--bootstrap css-->
+  <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600&amp;display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Material+Icons+Outlined" rel="stylesheet">
+  <!--main css-->
+  <link href="assets/css/bootstrap-extended.css" rel="stylesheet">
+  <link href="sass/main.css" rel="stylesheet">
+  <link href="sass/dark-theme.css" rel="stylesheet">
+  <link href="sass/semi-dark.css" rel="stylesheet">
+  <link href="sass/bordered-theme.css" rel="stylesheet">
+  <link href="sass/responsive.css" rel="stylesheet">
+  <!-- date range picker -->
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css" />
+
+</head>
+
+<body>
+
+  <!--start header-->
+  <header class="top-header">
+    <nav class="navbar navbar-expand align-items-center gap-4">
+      <div class="btn-toggle">
+        <a href="javascript:;"><i class="material-icons-outlined">menu</i></a>
+      </div>
+      <div class="search-bar flex-grow-1">
+        <div class="position-relative">
+       <div class="input-group ">
+      
+        <input class="form-control pe-5 search-control d-lg-block d-none " type="text" placeholder="Search Something">
+       </div>
+         
+          <span class="material-icons-outlined position-absolute me-3 translate-middle-y end-0 top-50 search-close">close</span>
+          <div class="search-popup p-3">
+            <div class="card rounded-4 overflow-hidden">
+              <div class="card-header d-lg-none">
+                <div class="position-relative">
+               
+                 
+                  <input class="form-control rounded-5 px-5 mobile-search-control" type="text" placeholder="Search">
+                  
+              
+                  <span class="material-icons-outlined position-absolute ms-3 translate-middle-y start-0 top-50">search</span>
+                  <span class="material-icons-outlined position-absolute me-3 translate-middle-y end-0 top-50 mobile-search-close">close</span>
+                 </div>
+              </div>
+              <div class="card-body search-content">
+                <p class="search-title">Recent Searches</p>
+                <div class="d-flex align-items-start flex-wrap gap-2 kewords-wrapper">
+                  <a href="javascript:;" class="kewords"><span>Angular Template</span><i
+                      class="material-icons-outlined fs-6">search</i></a>
+                  <a href="javascript:;" class="kewords"><span>Dashboard</span><i
+                      class="material-icons-outlined fs-6">search</i></a>
+                  <a href="javascript:;" class="kewords"><span>Admin Template</span><i
+                      class="material-icons-outlined fs-6">search</i></a>
+                  <a href="javascript:;" class="kewords"><span>Bootstrap 5 Admin</span><i
+                      class="material-icons-outlined fs-6">search</i></a>
+                  <a href="javascript:;" class="kewords"><span>Html eCommerce</span><i
+                      class="material-icons-outlined fs-6">search</i></a>
+                  <a href="javascript:;" class="kewords"><span>Sass</span><i
+                      class="material-icons-outlined fs-6">search</i></a>
+                  <a href="javascript:;" class="kewords"><span>laravel 9</span><i
+                      class="material-icons-outlined fs-6">search</i></a>
+                </div>
+                <hr>
+                <p class="search-title">Tutorials</p>
+                <div class="search-list d-flex flex-column gap-2">
+                  <div class="search-list-item d-flex align-items-center gap-3">
+                    <div class="list-icon">
+                      <i class="material-icons-outlined fs-5">play_circle</i>
+                    </div>
+                    <div class="">
+                      <h5 class="mb-0 search-list-title ">Wordpress Tutorials</h5>
+                    </div>
+                  </div>
+                  <div class="search-list-item d-flex align-items-center gap-3">
+                    <div class="list-icon">
+                      <i class="material-icons-outlined fs-5">shopping_basket</i>
+                    </div>
+                    <div class="">
+                      <h5 class="mb-0 search-list-title">eCommerce Website Tutorials</h5>
+                    </div>
+                  </div>
+  
+                  <div class="search-list-item d-flex align-items-center gap-3">
+                    <div class="list-icon">
+                      <i class="material-icons-outlined fs-5">laptop</i>
+                    </div>
+                    <div class="">
+                      <h5 class="mb-0 search-list-title">Responsive Design</h5>
+                    </div>
+                  </div>
+                </div>
+  
+                <hr>
+                <p class="search-title">Members</p>
+  
+                <div class="search-list d-flex flex-column gap-2">
+                  <div class="search-list-item d-flex align-items-center gap-3">
+                    <div class="memmber-img">
+                      <img src="assets/images/avatars/01.png" width="32" height="32" class="rounded-circle" alt="">
+                    </div>
+                    <div class="">
+                      <h5 class="mb-0 search-list-title ">Andrew Stark</h5>
+                    </div>
+                  </div>
+  
+                  <div class="search-list-item d-flex align-items-center gap-3">
+                    <div class="memmber-img">
+                      <img src="assets/images/avatars/02.png" width="32" height="32" class="rounded-circle" alt="">
+                    </div>
+                    <div class="">
+                      <h5 class="mb-0 search-list-title ">Snetro Jhonia</h5>
+                    </div>
+                  </div>
+  
+                  <div class="search-list-item d-flex align-items-center gap-3">
+                    <div class="memmber-img">
+                      <img src="assets/images/avatars/03.png" width="32" height="32" class="rounded-circle" alt="">
+                    </div>
+                    <div class="">
+                      <h5 class="mb-0 search-list-title">Michle Clark</h5>
+                    </div>
+                  </div>
+  
+                </div>
+              </div>
+              <div class="card-footer text-center bg-transparent">
+                <a href="javascript:;" class="btn w-100">See All Search Results</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <ul class="navbar-nav gap-1 nav-right-links align-items-center">
+        <li class="nav-item dropdown d-none">
+         
+          </a>
+          <div class="dropdown-menu dropdown-notify dropdown-menu-end shadow">
+            <div class="notify-list">
+             
+            </div>
+          </div>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a
+            href="javascrpt:;"
+            class="dropdown-toggle dropdown-toggle-nocaret"
+            data-bs-toggle="dropdown"
+          >
+            <div class="d-flex align-items-center">
+              <div class="me-1">
+                <p class="mb-0 fs2">Eleanor Pena</p>
+                <p class=" mt-0 fmon text-end mb-0 fpop text-white "> Admin</p>
+              </div>
+              <img
+              src="assets/images/avatars/01.png"
+              class="p-1 borderCustom"
+              width="45"
+              height="45"
+              style="border-radius: 50%;"
+            />
+            
+            
+            </div>
+          </a>
+          <div class="dropdown-menu dropdown-user dropdown-menu-end shadow">
+            <a class="dropdown-item gap-2 py-2" href="javascript:;">
+              <div class="text-center">
+                <img
+                  src="assets/images/avatars/01.png"
+                  class="p-1 shadow mb-3"
+                  width="90"
+                  height="90"
+                  alt=""
+                />
+                <h5 class="user-name mb-0 fw-bold">Eleanor Pena</h5>
+                <small class="text-muted mt-0 fmon"> Pharmacy:25dsaf84</small>
+              </div>
+            </a>
+            <hr class="dropdown-divider" />
+            <a
+              class="dropdown-item d-flex align-items-center gap-2 py-2"
+              href="#"
+              ><i class="material-icons-outlined">person_outline</i>Profile</a
+            >
+
+            <hr class="dropdown-divider" />
+            <a
+              class="dropdown-item d-flex align-items-center gap-2 py-2"
+              href="javascript:;"
+              ><i class="material-icons-outlined">power_settings_new</i
+              >Logout</a
+            >
+          </div>
+        </li>
+      </ul>
+     
+
+    </nav>
+  </header>
+ 
+  <!--end top header-->
+
+
+  <!--start sidebar-->
+    <aside class="sidebar-wrapper">
+        <div class="sidebar-header">
+          <div class="logo-icon">
+            <img src="assets/images/dplogo.png" class="" width="150px" alt="">
+          </div>
+          <div class="logo-name flex-grow-1">
+           
+          </div>
+          <div class="sidebar-close">
+            <span class="material-icons-outlined">close</span>
+          </div>
+        </div>
+        <div class="sidebar-nav" data-simplebar="true">
+          
+            <!--navigation-->
+             <ul class="metismenu" id="sidenav">
+              <li>
+                <a href="./domun.html" class="">
+                 <div class="icnonDiv">
+                 
+                  <img class="img2" src="./assets/images/d.png" alt="">
+                 </div>
+                  <div class="menu-title">Domun</div>
+                </a>
+                
+              </li>
+              <li>
+                <a href="./resident.html" class="">
+                  <div class="icnonDiv">
+                 
+                    <img class="img2" src="./assets/images/res.png" alt="">
+                   </div>
+                  <div class="menu-title">Residents</div>
+                </a>
+                
+              </li>
+              <li>
+                <a href="./pets.html" class="">
+                  <div class="icnonDiv">
+                    
+                    <img class="img2" src="./assets/images/pet.png" alt="">
+                   </div>
+                  <div class="menu-title">Pets</div>
+                </a>
+                
+              </li>
+            
+              <li>
+                <a href="./amenities.html" class="">
+                  <div class="icnonDiv">
+                    
+                    <img class="img2" src="./assets/images/am.png" alt="">
+                   </div>
+                  <div class="menu-title">Amenities
+                  </div>
+                </a>
+                
+              </li>
+              <li>
+                <a href="./checklist.html" class="">
+                  <div class="icnonDiv">
+                    
+                    <img class="img2" src="./assets/images/check.png" alt="">
+                   </div>
+                  <div class="menu-title">Checklist</div>
+                </a>
+                
+              </li>
+             <li>
+                <a href="#" class="">
+                  <div class="icnonDiv">
+                    
+                    <img class="img2" src="./assets/images/issue.png" alt="">
+                   </div>
+                  <div class="menu-title">Issues Reported</div>
+                </a>
+                
+              </li>
+              <li>
+                <a href="./Parking.html" class="">
+                  <div class="icnonDiv">
+                    
+                    <img class="img2" src="./assets/images/park.png" alt="">
+                   </div>
+                  <div class="menu-title">Parking
+                  </div>
+                </a>
+                
+              </li>
+              <li>
+                <a href="./event.html" class="">
+                  <div class="icnonDiv">
+                    
+                    <img class="img2" src="./assets/images/event.png" alt="">
+                   </div>
+                  <div class="menu-title">Event Journal
+                  </div>
+                </a>
+                
+              </li>
+              <li>
+                <a href="#" class="">
+                  <div class="icnonDiv">
+                    
+                    <img class="img2" src="./assets/images/sett.png" alt="">
+                   </div>
+                  <div class="menu-title">Settings
+                  </div>
+                </a>
+                
+              </li>
+      <li>
+                <a href="#" class="">
+                  <div class="icnonDiv">
+                    
+                    <img class="img2" src="./assets/images/help.png" alt="">
+                   </div>
+                  <div class="menu-title">Help
+                  </div>
+                </a>
+                
+              </li>
+             
+        
+            
+            
+            
+             </ul>
+            
+            <!--end navigation-->
+        </div>
+      
+          <ul class="metismenu d-flex flex-column justify-content-center">
+           
+            <a href="#" class="d-flex align-items-center text-white gap-2">
+              <div class="icnonDiv">
+                
+                <span class="img2">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-left" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M6 12.5a.5.5 0 0 0 .5.5h8a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5h-8a.5.5 0 0 0-.5.5v2a.5.5 0 0 1-1 0v-2A1.5 1.5 0 0 1 6.5 2h8A1.5 1.5 0 0 1 16 3.5v9a1.5 1.5 0 0 1-1.5 1.5h-8A1.5 1.5 0 0 1 5 12.5v-2a.5.5 0 0 1 1 0z"/>
+                    <path fill-rule="evenodd" d="M.146 8.354a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L1.707 7.5H10.5a.5.5 0 0 1 0 1H1.707l2.147 2.146a.5.5 0 0 1-.708.708z"/>
+                  </svg>
+                </span>
+               </div>
+              <div class="menu-title m-0">Logout</div>
+            </a>
+            
+          </li>
+         </ul>
+       
+
+        
+    </aside>
+<!--end sidebar-->
+
+
+  <!--start main wrapper-->
+  <main class="main-wrapper">
+    <div class="main-content">
+   
+		<div class="row">
+     <div class="col-md-8 my-2">
+      <h3 class="fmon">Amenities</h3>
+     </div>
+      
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+          
+            <div class="input-group">
+              <span class="input-group-text"><img src="./assets/images/serIcon.png" alt="" width="25px"></span>
+              <input type="text" name="" id="" class="form-control form-Search" placeholder="search">
+            </div>
+            <div class="my-2 subButtons d-flex align-items-center gap-3">
+               <button class="btn"><img src="./assets/images/home.png" alt=""> House</button>
+              <button class="btn"><img src="./assets/images/name.png" alt="">  Ammenty Name</button>
+               <button class="btn"><img src="./assets/images/dat.png" alt=""> Date of Reservation</button>
+               
+              
+            </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-lg-4  col-xxl-3 my-2">
+                  <a href="./ammentyView.html" class="card custCard p-3 ">
+                    <div class="d-flex align-items-center gap-2">
+                    <img src="./assets/images/pool.png" alt="">
+                      <div class="my-1">
+                        <p class="fos1 m-0">Pool</p>
+                        <p class="fos2 mb-0">House 0</p>
+                      </div>
+                    </div>
+                    <div>
+                        <p class="mb-1 fos2">Day: <span> wed,June 4,2023
+                        </span></p>
+                        <p class="mb-1 fos2">Block: <span> From 05:00 am t0 06:00 am
+                        </span></p>
+                        <p class="mb-1 fos2">Number of people in the reservation: <span> 1
+                        </span></p>
+                    </div>
+                  </a>
+                </div>
+               
+           
+              </div>
+          </div>
+      </div>
+  </div>
+    
+  </main>
+  <!--end main wrapper-->
+
+
+    <!--start overlay-->
+    <div class="overlay btn-toggle"></div>
+    <!--end overlay-->
+
+
+
+     
+
+
+
+
+
+  <!--bootstrap js-->
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
+
+  <!--plugins-->
+  <script src="assets/js/jquery.min.js"></script>
+  <!--plugins-->
+  <script src="assets/plugins/perfect-scrollbar/js/perfect-scrollbar.js"></script>
+  <script src="assets/plugins/metismenu/metisMenu.min.js"></script>
+ 
+  <script src="assets/js/index2.js"></script>
+  <script src="assets/js/main.js"></script>
+  <!-- appax chart -->
+  <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+<!-- moment js -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
+    <!-- data rane picker -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"></script>
+
+  <!-- <script>
+    
+    var options = {
+          series: [{
+          name: 'series1',
+          data: [31, 40, 28, 51, 42, 109, 100]
+        }, {
+          name: 'series2',
+          data: [11, 32, 45, 32, 34, 52, 41]
+        }],
+        colors: ['#39D6FF', '#7A8192'],
+          chart: {
+          height: 350,
+          type: 'area'  ,
+          
+        },
+        dataLabels: {
+          enabled: false
+        },
+        stroke: {
+          curve: 'smooth'
+        },
+        xaxis: {
+          type: 'datetime',
+          categories: ["2018-09-19T00:00:00.000Z", "2018-09-19T01:30:00.000Z", "2018-09-19T02:30:00.000Z", "2018-09-19T03:30:00.000Z", "2018-09-19T04:30:00.000Z", "2018-09-19T05:30:00.000Z", "2018-09-19T06:30:00.000Z"]
+        },
+        tooltip: {
+          x: {
+            format: 'dd/MM/yy HH:mm'
+          },
+        },
+        };
+
+        var chart = new ApexCharts(document.querySelector("#chart"), options);
+        chart.render();
+  </script> -->
+  <!-- <script>
+    var options = {
+      series: [{
+        name: 'Completed Bookings',
+        data: [31, 40, 28, 51, 42, 109, 100] // Example data
+      }, {
+        name: 'Product Sales',
+        data: [11, 32, 45, 32, 34, 52, 41] // Example data
+      }, {
+        name: 'Base Revenue',
+        data: [20, 30, 40, 50, 60, 70, 80] // Example data
+      }, {
+        name: 'Retail Revenue',
+        data: [15, 25, 35, 45, 55, 65, 75] // Example data
+      }],
+      colors: ['#39D6FF', '#7A8192', '#FF5733', '#33FF57'], // Different colors for each series
+      chart: {
+        height: 350,
+        type: 'area',
+      },
+      dataLabels: {
+        enabled: false
+      },
+      stroke: {
+        curve: 'smooth'
+      },
+      xaxis: {
+        type: 'datetime',
+        categories: [
+          "2018-09-19T00:00:00.000Z", 
+          "2018-09-19T01:30:00.000Z", 
+          "2018-09-19T02:30:00.000Z", 
+          "2018-09-19T03:30:00.000Z", 
+          "2018-09-19T04:30:00.000Z", 
+          "2018-09-19T05:30:00.000Z", 
+          "2018-09-19T06:30:00.000Z"
+        ]
+      },
+      tooltip: {
+        x: {
+          format: 'dd/MM/yy HH:mm'
+        },
+      },
+    };
+  
+    var chart = new ApexCharts(document.querySelector("#chart"), options);
+    chart.render();
+  </script> -->
+
+</body>
+
+
+<!-- Mirrored from codervent.com/matoxi/demo/vertical-menu/index2.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 09 Jan 2024 16:36:47 GMT -->
+</html>
